@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ImageGalleryItem from '../ImageGalleryItem/ImageGalleryItem';
-import styles from '../ImageGallery/ImageGallery.module.css';
+import styles from './ImageGallery.module.css';
 
 class ImageGallery extends Component {
     shouldComponentUpdate(nextProps) {

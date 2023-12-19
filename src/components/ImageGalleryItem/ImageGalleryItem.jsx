@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from '../ImageGalleryItem/ImageGalleryItem.module.css'
+import styles from './ImageGalleryItem.module.css'
 
 class ImageGalleryItem extends Component {
     handleClick = () => {
@@ -32,7 +32,7 @@ class ImageGalleryItem extends Component {
                 <img
                     src="image.src"
                     alt="image.alt"
-                    className={styles.img} />
+                    className={styles.imgGal} />
             </li>
         )
     }
