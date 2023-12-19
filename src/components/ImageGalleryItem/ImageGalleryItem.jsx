@@ -21,7 +21,7 @@ class ImageGalleryItem extends Component {
     }
 
     render() {
-        const { image } = this.props;
+        // const { image } = this.props;
         const generateKey = this.generateUniqueKey();
 
         return (
@@ -30,8 +30,8 @@ class ImageGalleryItem extends Component {
                 className={styles.item}
                 onClick={this.handleClick}>
                 <img
-                    src="image.src"
-                    alt="image.alt"
+                    src="src"
+                    alt="alt"
                     className={styles.imgGal} />
             </li>
         )
